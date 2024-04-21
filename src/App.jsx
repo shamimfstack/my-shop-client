@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h2>SMy Shop</h2>
+      <h2>My Shop</h2>
     </>
   )
 }
