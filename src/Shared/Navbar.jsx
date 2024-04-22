@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="py-5">
+    <div className="py-5 bg-gray-200 px-6">
       <nav className="flex justify-between items-center">
         <Link to="/">Logo</Link>
 
