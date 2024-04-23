@@ -7,7 +7,10 @@ export default function Register() {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    console.log(data.name);
+  }
 
   return (
     <div className="min-h-screen flex justify-center items-center">
